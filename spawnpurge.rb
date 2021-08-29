@@ -6,7 +6,7 @@ if File.directory("cmd_writer")
 
   system("chmod u+x open.sh; ./open.sh")
 else
-  system("git clone ")
+  system("git clone https://github.com/LWFlouisa/cmd_writer")
 
   system("cd cmd_writer")
 
